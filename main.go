@@ -1,10 +1,4 @@
-package main
-
-import "fmt"
-
-func main() {
-	fmt.Println("hello go mod")
-}
+package hello
 
 func Hello(name string) string {
 	s := "from hello" + name
